@@ -25,11 +25,14 @@ Include the module the module in your scripts.
 Add ngParallax in your apps dependencies.  
 var app = angular.module('myApp', ['ngParallax']);
 
-### Useage
+### Usage
 
 &lt;div ng-parallax pattern="myPattern" speed="0"&gt; &lt; /div&gt; 
 
+### Parameters
 
+speed: 0-3              (slowest to fastest)
+reverse: true/false     (go from up to down)
 
 
 ### Want to Contribute?
