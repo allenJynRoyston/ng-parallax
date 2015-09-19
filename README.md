@@ -36,7 +36,7 @@ var app = angular.module('myApp', ['ngParallax']);
 
 ### Parameters
 
-speed: 0-3              (slowest to fastest)
+speed: 0-3              (slowest to fastest)<br>
 reverse: true/false     (go from up to down)
 
 
