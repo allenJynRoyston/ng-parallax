@@ -52,14 +52,6 @@ speed: 0-3              (slowest to fastest)<br>
 reverse: true/false     (go from up to down)
 
 
-### Want to Contribute?
-Great!  Just make a fork and submit a pull request. 
-
-### Requirements
-None, just get that local server installed or else you will see nothing. NOTHING!
-
-
-
 
 License
 ----
