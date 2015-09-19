@@ -17,6 +17,10 @@ An easy way to implement parallax scrolling with Angularjs.
 ### Version
 1.0.0
 
+### NPM / Bower
+<code>
+npm install ng-parallax
+</code>
 
 ### Installation
 Include the module in your scripts.<br>
