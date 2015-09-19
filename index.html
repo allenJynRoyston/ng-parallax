@@ -1,0 +1,112 @@
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>ng-parallax directive</title>
+
+    <!-- ANGULARJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+    <!-- MODULE -->
+    <script src="./js/ngParallax.js"></script>
+
+    <!-- APP -->
+    <script src="./js/app.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </head>
+  <body style='min-width: 1000px'>
+
+      <h1>ng-parallax demo</h1>
+      <!--------------->
+      <div class='container' ng-init="myPattern='images/rain-pattern.png'">
+          <hr>
+          <h2>Basic Usage:</h2>
+          <h3>In Controller:</h3>
+          <code>$scope.myPattern = 'images/rain-pattern.png'</code>
+          <br><br>
+          <h3>HTML:</h3>
+          <code>&lt;div ng-parallax pattern="myPattern" speed="0" &gt;&lt;/div&gt;</code>
+          <br><br>
+          <hr>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern" speed="0" reverse="false" ></div>
+          </div>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern" speed=".5" reverse="false" ></div>
+          </div>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern" speed="1" reverse="false" ></div>
+          </div>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern" speed="1.5" reverse="false" ></div>
+          </div>
+      </div>
+      <!--------------->
+
+      <!--------------->
+      <div <div class='container' ng-init="myPattern2='images/rain-pattern.png'">
+          <hr>
+          <h2>Reverse:</h2>
+          <h3>In Controller:</h3>
+          <code>$scope.myPattern = 'images/rain-pattern.png'</code>
+          <br><br>
+          <h3>HTML:</h3>
+          <code>&lt;div ng-parallax pattern="myPattern" speed="1" reverse="true" &gt;&lt;/div&gt;</code>
+          <br><br>
+          <hr>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern2" speed="0" reverse="true" ></div>
+          </div>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern2" speed=".25" reverse="true" ></div>
+          </div>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern2" speed=".5" reverse="true" ></div>
+          </div>
+          <div class='box'>
+            <div ng-parallax pattern="myPattern2" speed="1" reverse="true" ></div>
+          </div>
+      </div>
+      <!--------------->
+
+
+      <!--------------->
+      <div class='container' ng-init="myPattern2='images/rain-pattern.png'">
+          <hr>
+          <h3>Variations:</h3>
+            <p> - Responsive, fits in any container.</p>
+            <p> - Can use images without being scoped</p>
+          <code>$scope.myPattern = 'images/rain-pattern.png'</code>
+          <br><br>
+          <h3>HTML:</h3>
+          <code>&lt;div ng-parallax pattern="'images/grey-pattern.png'" speed="0"&gt;&lt;/div&gt;</code>
+          <br>
+          <code>&lt;div ng-parallax pattern="'http://lorempixel.com/g/400/600/people/8'" speed="2" &gt;&lt;/div&gt;</code>
+          <br><br>
+          <hr>
+          <hr>
+          <div class='large-box'>
+            <div ng-parallax pattern="'images/grey-pattern.png'" speed="0" reverse="true" ></div>
+          </div>
+          <div class='large-box'>
+            <div ng-parallax pattern="'http://lorempixel.com/g/400/600/people/8'" speed="2" reverse="false" ></div>
+          </div>
+          <div class='large-box'>
+            <div ng-parallax pattern="'http://lorempixel.com/400/1000/abstract/8'" speed=".1" reverse="true" ></div>
+          </div>
+          <div class='large-box'>
+            <div ng-parallax pattern="'images/grey-pattern.png'" speed="0" reverse="true" ></div>
+          </div>
+      </div>
+      <!--------------->
+
+      <div class='container'>
+        <div style='width: 100%; height: 800px;'></div>
+      </div>
+
+
+  </body>
+</html>
