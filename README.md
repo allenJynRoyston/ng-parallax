@@ -25,7 +25,8 @@ Include the module the module in your scripts.
 Add ngParallax in your apps dependencies.  
 var app = angular.module('myApp', ['ngParallax']);
 
-Add to your HTML as such: 
+### Useage
+
 &lt;div ng-parallax pattern="myPattern" speed="0"&gt; &lt; /div&gt; 
 
 
