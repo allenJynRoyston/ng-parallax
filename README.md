@@ -10,15 +10,15 @@ An easy way to implement parallax scrolling with Angularjs.
 [Check it out](http://allenroyston.herokuapp.com/access/demo1/index.html "Title")
 
 
-
-
+### Dependencies
+- None!  (Other than Angular).
 
 
 ### Version
 1.0.0
 
-### Installation
 
+### Installation
 Include the module in your scripts.<br>
 <code>
 &lt;script src="./js/ngParallax.min.js"&gt; &lt;script&gt;
@@ -35,7 +35,6 @@ var app = angular.module('myApp', ['ngParallax']);
 </code>
 
 ### Parameters
-
 <code>
 &lt;div ng-parallax pattern="'imageLocation'" speed="[0-3]" reverse="[true/false]"&gt; &lt; /div&gt; 
 </code>
@@ -45,11 +44,9 @@ reverse: true/false     (go from up to down)
 
 
 ### Want to Contribute?
-
 Great!  Just make a fork and submit a pull request. 
 
 ### Requirements
-
 None, just get that local server installed or else you will see nothing. NOTHING!
 
 
