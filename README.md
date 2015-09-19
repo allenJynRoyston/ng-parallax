@@ -22,7 +22,7 @@ An easy way to implement parallax scrolling with Angularjs.
 npm install ng-parallax --save-dev
 </code>
 <br>
-</code>
+<code>
 bower install ng-simple-parallax --save
 </code>
 
