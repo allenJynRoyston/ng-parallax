@@ -7,7 +7,7 @@ An easy way to implement parallax scrolling with Angularjs.
   - Simple
   
 ### Live Demo 
-[Check it out](http://allenroyston.herokuapp.com/access/demo1/index.html "Title")
+[Check it out](https://allenroyston.herokuapp.com/access/ng-parallax/index.html "Title")
 
 
 ### Dependencies
