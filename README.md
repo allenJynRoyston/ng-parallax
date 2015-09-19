@@ -20,14 +20,19 @@ An easy way to implement parallax scrolling with Angularjs.
 ### Installation
 
 Include the module the module in your scripts.  
+<code>
 &lt;script src="./js/ngParallax.min.js"&gt; &lt;script&gt;
+</code>
 
 Add ngParallax in your apps dependencies.  
+<code>
 var app = angular.module('myApp', ['ngParallax']);
+</code>
 
 ### Usage
-
+<code>
 &lt;div ng-parallax pattern="myPattern" speed="0"&gt; &lt; /div&gt; 
+</code>
 
 ### Parameters
 
