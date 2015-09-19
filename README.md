@@ -36,6 +36,10 @@ var app = angular.module('myApp', ['ngParallax']);
 
 ### Parameters
 
+<code>
+&lt;div ng-parallax pattern="'imageLocation'" speed="[0-3]" reverse="[true/false]"&gt; &lt; /div&gt; 
+</code>
+<br><br>
 speed: 0-3              (slowest to fastest)<br>
 reverse: true/false     (go from up to down)
 
