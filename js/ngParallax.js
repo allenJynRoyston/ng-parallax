@@ -36,6 +36,12 @@ angular.module('ngParallax', []).directive('ngParallax', [
                   bgObj.style.backgroundPosition = coords;
             };
 
+            // for mobile
+            window.document.addEventListener("touchmove", function(){
+              execute();
+            })
+
+            // for browsers
             window.document.addEventListener("scroll", function() {
               execute();
             });

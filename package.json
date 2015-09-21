@@ -1,0 +1,24 @@
+{
+  "name": "ng-parallax",
+  "version": "1.0.1",
+  "description": "An easy way to utilize parllax scrolling in Angular apps.",
+  "main": "js/ngParallax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenRoyston/ng-parallax.git"
+  },
+  "keywords": [
+    "parallax",
+    "angularjs",
+    "royston"
+  ],
+  "author": "Allen Royston <allen.acr@gmail.com> (httphttps://allenroyston.herokuapp.com/#/home/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allenRoyston/ng-parallax/issues"
+  },
+  "homepage": "https://github.com/allenRoyston/ng-parallax#readme"
+}
