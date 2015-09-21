@@ -5,6 +5,7 @@ An easy way to implement parallax scrolling with Angularjs.
   - No dependencies
   - Responsive
   - Simple
+  - Works for mobile!  (Well, iPhones at least - haven't tested on an Android yet)
   - Tiny (only 292B)
   
 ### Updates
