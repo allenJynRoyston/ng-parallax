@@ -28,14 +28,14 @@ angular.module('ngParallax', []).directive('ngParallax', [
 
 
           function execute(){
-            if (scope.speed != 0){
+
               var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
               var speed = (scrollTop / scope.speed);
               if(isMobile){
                 speed = speed * .10
               }
               bgObj.style.backgroundPosition = '0% '+ speed + '%';
-            }
+            
           };
 
           // for mobile
