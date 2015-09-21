@@ -9,18 +9,18 @@ An easy way to implement parallax scrolling with Angularjs.
   - Tiny (only 292B)
   
 ### Updates
- - v1.1.2 - Eliminated jankiness when using Macbook touchpads.
+ - v1.1.2 - Eliminated jankiness when using Macbook touchpads and touchscreens.
 
 ### Live Demo 
 [Check it out](https://allenroyston.herokuapp.com/access/ng-parallax/index.html "Title")
 
 
 ### Dependencies
-- None!  (Other than Angular).
+- None!  (Other than AngularJS).
 
 
 ### Version
-1.0.0
+1.1.2
 
 ### NPM / Bower
 <code>
