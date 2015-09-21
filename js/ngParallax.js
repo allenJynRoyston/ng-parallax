@@ -34,8 +34,13 @@ angular.module('ngParallax', []).directive('ngParallax', [
               if(isMobile){
                 speed = speed * .10
               }
-              bgObj.style.backgroundPosition = '0% '+ speed + '%';
-            
+              if(speed == 0){
+                bgObj.style.backgroundPosition = '0% '+ 0 + '%';
+              }
+              else{
+                bgObj.style.backgroundPosition = '0% '+ speed + '%';
+              }
+
           };
 
           // for mobile
