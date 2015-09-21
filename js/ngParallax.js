@@ -20,8 +20,10 @@ angular.module('ngParallax', []).directive('ngParallax', [
                 bgObj.style.backgroundAttachment = 'fixed';
 
             function execute(){
-              var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-              bgObj.style.backgroundPosition = '0% '+ (scrollTop / scope.speed) + '%';
+              if (scope.speed != 0){
+                var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+                bgObj.style.backgroundPosition = '0% '+ (scrollTop / scope.speed) + '%';
+              }
             };
 
             // for mobile
