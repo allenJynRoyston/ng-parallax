@@ -39,18 +39,16 @@ angular.module('ngParallax', []).directive('ngParallax', [
           };
 
           // for mobile
-          if(isMobile){
-            window.document.addEventListener("touchmove", function(){
+          window.document.addEventListener("touchmove", function(){
               execute();
-            })
-          }
+          })
+
 
           // for browsers
-          else{
-            window.document.addEventListener("scroll", function() {
+          window.document.addEventListener("scroll", function() {
               execute();
-            });
-          }
+          });
+
           execute();
 
         },
