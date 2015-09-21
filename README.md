@@ -7,7 +7,10 @@ An easy way to implement parallax scrolling with Angularjs.
   - Simple
   - Works for mobile!  (Well, iPhones at least - haven't tested on an Android yet)
   - Tiny (only 292B)
-  
+
+### Version
+1.1.2
+
 ### Updates
  - v1.1.2 - Eliminated jankiness when using Macbook touchpads and touchscreens.
 
@@ -17,10 +20,6 @@ An easy way to implement parallax scrolling with Angularjs.
 
 ### Dependencies
 - None!  (Other than AngularJS).
-
-
-### Version
-1.1.2
 
 ### NPM / Bower
 <code>
