@@ -52,8 +52,11 @@ var app = angular.module('myApp', ['ngParallax']);
 </code>
 <br><br>
 speed: 0-3              (slowest to fastest)<br>
-* Using negative numbers reverses the direction.  
-** The speed is directly related to the image size, so tinker with your speed to get the right effect. 
+
+* Setting the speed at 0 will lock the image in place
+** ... unless it's iOS, in which case the image will act as a static image and scroll naturally.
+*** Using negative numbers reverses the direction.  
+**** The speed is directly related to the image size, so tinker with your speed to get the right effect. 
 
 
 
