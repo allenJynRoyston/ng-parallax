@@ -30,20 +30,20 @@
           <h3>HTML:</h3>
 
           <code>&lt;div ng-parallax pattern="myPattern" speed="0" &gt;&lt;/div&gt;<br></code>
-          <p>* speed 0-10 (slowest - fastest)</p>
+          <p>* speed 10-0 (slowest - fastest)</p>
           <br><br>
           <hr>
           <div class='box'>
-            <div ng-parallax pattern="myPattern" speed="0" reverse="false" ><center>Speed: 0</center></div>
+            <div ng-parallax pattern="myPattern" speed="0"  ><center>Speed: 0</center></div>
           </div>
           <div class='box'>
-            <div ng-parallax pattern="myPattern" speed=".5" reverse="false" ><center>Speed: 0.5</center></div>
+            <div ng-parallax pattern="myPattern" speed="5" ><center>Speed: 5</center></div>
           </div>
           <div class='box'>
-            <div ng-parallax pattern="myPattern" speed="1" reverse="false" ><center>Speed: 1</center></div>
+            <div ng-parallax pattern="myPattern" speed="3"  ><center>Speed: 3</center></div>
           </div>
           <div class='box'>
-            <div ng-parallax pattern="myPattern" speed="1.5" reverse="false" ><center>Speed: 1.5</center></div>
+            <div ng-parallax pattern="myPattern" speed="1" ><center>Speed: 1</center></div>
           </div>
       </div>
       <!--------------->
@@ -60,16 +60,16 @@
           <br><br>
           <hr>
           <div class='box'>
-            <div ng-parallax pattern="myPattern2" speed="0" reverse="true" ><center>Speed: 0</center></div>
+            <div ng-parallax pattern="myPattern2" speed="0"  ><center>Speed: 0</center></div>
           </div>
           <div class='box'>
-            <div ng-parallax pattern="myPattern2" speed=".25" reverse="true" ><center>Speed: .25</center></div>
+            <div ng-parallax pattern="myPattern2" speed="-15"  ><center>Speed: -15</center></div>
           </div>
           <div class='box'>
-            <div ng-parallax pattern="myPattern2" speed=".5" reverse="true" ><center>Speed: 0.5</center></div>
+            <div ng-parallax pattern="myPattern2" speed="-10" ><center>Speed: -10</center></div>
           </div>
           <div class='box'>
-            <div ng-parallax pattern="myPattern2" speed="1" reverse="true" ><center>Speed: 1</center></div>
+            <div ng-parallax pattern="myPattern2" speed="-5"  ><center>Speed: -5</center></div>
           </div>
       </div>
       <!--------------->
@@ -83,10 +83,10 @@
         <code>
           &#x3C;div style=&#x22;width: 100%; height: 800px&#x22;&#x3E;<br>
                   &#x3C;div style=&#x27;width: 100%; height: 100%; position: absolute; &#x27; &#x3E;<br>
-                    &#x3C;div ng-parallax pattern=&#x22;&#x27;images/grey-pattern.png&#x27;&#x22; speed=&#x22;1&#x22;&#x3E;&#x3C;/div&#x3E;<br>
+                    &#x3C;div ng-parallax pattern=&#x22;&#x27;images/grey-pattern.png&#x27;&#x22; speed=&#x22;0&#x22;&#x3E;&#x3C;/div&#x3E;<br>
                   &#x3C;/div&#x3E;<br>
                   &#x3C;div  style=&#x27;width: 50%; height: 50%; position: absolute; &#x27;&#x3E;<br>
-                    &#x3C;div ng-parallax pattern=&#x22;&#x27;images/rain-pattern.png&#x27;&#x22; speed=&#x22;.2&#x22; reverse=&#x22;true&#x22;&#x3E;&#x3C;/div&#x3E;<br>
+                    &#x3C;div ng-parallax pattern=&#x22;&#x27;images/rain-pattern.png&#x27;&#x22; speed=&#x22;15&#x22; reverse=&#x22;true&#x22;&#x3E;&#x3C;/div&#x3E;<br>
                   &#x3C;/div&#x3E;<br>
                   &#x3C;div  style=&#x27;width: 25%; height: 25%; position: absolute; &#x27;&#x3E;<br>
                     &#x3C;div ng-parallax pattern=&#x22;&#x27;images/cloud-pattern.jpg&#x27;&#x22; speed=&#x22;0&#x22; reverse=&#x22;true&#x22;&#x3E;&#x3C;/div&#x3E;<br>
@@ -98,10 +98,10 @@
         <hr>
         <div style="width: 100%; height: 800px">
           <div style='width: 100%; height: 800px; position: absolute; ' >
-            <div ng-parallax pattern="'images/grey-pattern.png'" speed="1"></div>
+            <div ng-parallax pattern="'images/grey-pattern.png'" speed="0"></div>
           </div>
           <div  style='width: 50%; height: 50%; position: absolute; '>
-            <div ng-parallax pattern="'images/rain-pattern.png'" speed=".2" reverse="true"></div>
+            <div ng-parallax pattern="'images/rain-pattern.png'" speed="15" reverse="true"></div>
           </div>
           <div  style='width: 25%; height: 25%; position: absolute; '>
             <div ng-parallax pattern="'images/cloud-pattern.jpg'" speed="0" reverse="true"></div>
@@ -128,10 +128,10 @@
             <div ng-parallax pattern="'images/grey-pattern.png'" speed="0" reverse="true" ></div>
           </div>
           <div class='large-box'>
-            <div ng-parallax pattern="'http://lorempixel.com/g/400/600/people/8'" speed="2" reverse="false" ></div>
+            <div ng-parallax pattern="'http://lorempixel.com/g/400/600/people/8'" speed="12" reverse="false" ></div>
           </div>
           <div class='large-box'>
-            <div ng-parallax pattern="'http://lorempixel.com/400/1000/abstract/8'" speed=".1" reverse="true" ></div>
+            <div ng-parallax pattern="'http://lorempixel.com/400/1000/abstract/8'" speed="1" reverse="true" ></div>
           </div>
           <div class='large-box'>
             <div ng-parallax pattern="'images/grey-pattern.png'" speed="0" reverse="true" ></div>

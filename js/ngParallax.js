@@ -6,9 +6,7 @@ angular.module('ngParallax', []).directive('ngParallax', [
         restrict: 'AE',
         scope:{
           pattern: '=',
-          speed: '=',
-          offset: '=',
-          reverse: '='
+          speed: '='
         },
         link: function(scope, elem, attr) {
 
@@ -19,21 +17,11 @@ angular.module('ngParallax', []).directive('ngParallax', [
                 bgObj.style.margin = "0 auto"
                 bgObj.style.position = "relative"
                 bgObj.style.background = "url(" + scope.pattern + ")"
-
-            var reverse = Boolean(scope.reverse) || false;
-
+                bgObj.style.backgroundAttachment = 'fixed';
 
             function execute(){
               var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-              if(!reverse){
-                var yPos = (scrollTop / (scope.speed + 1));
-              }
-              else{
-                var yPos = (scrollTop * ((scope.speed) + 1));
-              }
-
-              var coords = '50% '+ (yPos) + 'px';
-                  bgObj.style.backgroundPosition = coords;
+              bgObj.style.backgroundPosition = '0% '+ (scrollTop / scope.speed) + '%';
             };
 
             // for mobile
