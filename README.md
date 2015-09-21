@@ -7,6 +7,9 @@ An easy way to implement parallax scrolling with Angularjs.
   - Simple
   - Tiny (only 292B)
   
+### Updates
+ - v1.1.2 - Eliminated jankiness when using Macbook touchpads.
+
 ### Live Demo 
 [Check it out](https://allenroyston.herokuapp.com/access/ng-parallax/index.html "Title")
 
@@ -49,7 +52,8 @@ var app = angular.module('myApp', ['ngParallax']);
 </code>
 <br><br>
 speed: 0-3              (slowest to fastest)<br>
-reverse: true/false     (go from up to down)
+* Using negative numbers reverses the direction.  
+** The speed is directly related to the image size, so tinker with your speed to get the right effect. 
 
 
 
