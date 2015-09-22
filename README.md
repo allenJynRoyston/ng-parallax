@@ -8,6 +8,12 @@ An easy way to implement parallax scrolling with Angularjs.
   - Works for mobile!  (Well, iPhones at least - haven't tested on an Android yet)
   - Tiny (only 292B)
 
+
+### Usage
+<code>
+&lt;div ng-parallax pattern="myPattern" speed="0"&gt; &lt; /div&gt; 
+</code>
+
 ### Version
 1.1.2
 
@@ -41,10 +47,6 @@ Add ngParallax in your apps dependencies.<br>
 var app = angular.module('myApp', ['ngParallax']);
 </code>
 
-### Usage
-<code>
-&lt;div ng-parallax pattern="myPattern" speed="0"&gt; &lt; /div&gt; 
-</code>
 
 ### Parameters
 <code>
