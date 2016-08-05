@@ -1,7 +1,7 @@
 # ng-parallax
 
-### Update!
-There is now an [Angular2](https://github.com/allenRoyston/ng2-parallax "Angular2") directive available for those interested!
+### NEW!
+There is now an [Angular2 directive](https://github.com/allenRoyston/ng2-parallax "Angular2 directive") available for those interested!
 
 ### What Am I?!
 An easy way to implement parallax scrolling with Angularjs.  
