@@ -1,5 +1,9 @@
 'use strict';
-angular.module('ngParallax', []).directive('ngParallax', [
+if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.exports === exports) {
+  module.exports = 'ngParallax';
+}
+angular.module('ngParallax',[]);
+angular.module('ngParallax').directive('ngParallax', [
   '$timeout',
   function ($window, $timeout) {
     return {
