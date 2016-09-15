@@ -6,7 +6,7 @@
     "Allen R <allen.acr@gmail.com>"
   ],
   "description": "Simple AngularJS module",
-  "main": "js/ngParallax.js",
+  "main": "src/ngParallax.js",
   "keywords": [
     "angularjs",
     "parallax",
