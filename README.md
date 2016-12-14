@@ -1,4 +1,5 @@
 # ng-parallax
+[![CDNJS](https://img.shields.io/cdnjs/v/ng-parallax.svg)](https://cdnjs.com/libraries/ng-parallax)
 
 ### NEW!
 There is now an [Angular2 directive](https://github.com/allenRoyston/ng2-parallax "Angular2 directive") available for those interested!
