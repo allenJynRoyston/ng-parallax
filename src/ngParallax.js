@@ -31,13 +31,12 @@ angular.module('ngParallax').directive('ngParallax', [
           }
 
           var bgObj = elem[0];
-              bgObj.style.backgroundRepeat = "repeat";
-              bgObj.style.backgroundAttachment = "fixed";
               bgObj.style.height = "100%";
               bgObj.style.margin = "0 auto"
               bgObj.style.position = "relative"
               bgObj.style.background = "url(" + scope.pattern + ")"
               bgObj.style.backgroundAttachment = 'fixed';
+              bgObj.style.backgroundRepeat = "repeat";
           var isMobile = window.mobileAndTabletcheck();
 
 
